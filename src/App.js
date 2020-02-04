@@ -9,10 +9,13 @@ function App() {
   return (
     <div className="App">
       <Comp />
-      <Welcome />
+      <Welcome name="Bruce" heroName="Batman"><p>This is a children prop</p></Welcome>
+      <Welcome name="Clark" heroName="Superman" />
+      <Welcome name="Diana" heroName="Wonder Woman" />
+      <hr />
       {/* <Greet /> */}
       <Hello name="Bruce" heroName="Batman"><p>This is a children prop</p></Hello>
-      <Hello name="Clark" heroName="Superman" />
+      <Hello name="Clark" heroName="Superman"><button>Action</button></Hello>
       <Hello name="Diana" heroName="Wonder Woman" />
     </div>
   );
