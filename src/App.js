@@ -18,9 +18,9 @@ function App() {
       <Welcome name="Diana" heroName="Wonder Woman" />
       <hr /> */}
       {/* <Greet /> */}
-      {/* <Hello name="Bruce" heroName="Batman"><p>This is a children prop</p></Hello>
+      <Hello name="Bruce" heroName="Batman"><p>This is a children prop</p></Hello>
       <Hello name="Clark" heroName="Superman"><button>Action</button></Hello>
-      <Hello name="Diana" heroName="Wonder Woman" /> */}
+      <Hello name="Diana" heroName="Wonder Woman" />
     </div>
   );
 }
