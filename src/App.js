@@ -6,7 +6,7 @@ import React from 'react';
 // import Message from './components/Message/Message';
 // import Counter from './components/Counter/Counter';
 // import FunctionClick from './components/FunctionClick/FunctionClick';
-import EventBind from  './components/EventBind/EventBind';
+// import EventBind from  './components/EventBind/EventBind';
 // import FileUpload from './components/FileUpload/FileUpload';
 // import API from './components/ReactComponentAPI/API';
 // import DomMan from  './components/DomMan/DomMan';
