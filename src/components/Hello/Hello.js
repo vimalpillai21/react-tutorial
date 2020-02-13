@@ -3,6 +3,7 @@ import React from 'react';
 // const Hello = (props) => {
     const Hello = ({name,heroName,children}) => {
     // props.name = "Property name"; Will the break the app and give a error
+    // const {name, heroName,children} = props;
     return (
         <div className='dummyClass'>
             <p>Hello {name} a.k.a {heroName}</p><p>{children}</p>    
