@@ -15,13 +15,15 @@ import EventBind from  './components/EventBind/EventBind';
 // import FormValid2 from './components/FormValid/FormValid2';
 // import ClassClick from './components/ClassClick/ClassClick';
 // import ParentComponent from './components/ParentComponent/ParentComponent';
-import UserGreeting from './components/UserGreeting/UserGreeting';
+// import UserGreeting from './components/UserGreeting/UserGreeting';
+import NameList from './components/UserGreeting/NameList';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      {/* <UserGreeting /> */}
+      <NameList />
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
       {/* <FileUpload /> */}
