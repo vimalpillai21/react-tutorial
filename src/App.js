@@ -18,7 +18,10 @@ import React from 'react';
 // import UserGreeting from './components/UserGreeting/UserGreeting';
 // import Stylesheet from './components/StyleApp/Stylesheet';
 // import Inline from './components/StyleApp/Inline';
-import LifeCycleA from './components/LifeCycleHooks/LifeCycleA';
+// import LifeCycleA from './components/LifeCycleHooks/LifeCycleA';
+// import Fragment from './components/FragmentDemo/Fragment';
+// import Table from './components/FragmentDemo/Table';
+import ParentComp from './components/PureComponent/ParentComp';
 // import NameList from './components/UserGreeting/NameList';
 import './App.css';
 import './appStyles.css';
@@ -32,8 +35,13 @@ function App() {
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1>
       <Inline />
+      
       <Stylesheet primary={true} /> */}
-      <LifeCycleA />
+      {/* <LifeCycleA /> */}
+      {/* <PureComp /> */}
+      <ParentComp />
+      {/* <Fragment /> */}
+      {/* <Table /> */}
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
       {/* <FileUpload /> */}

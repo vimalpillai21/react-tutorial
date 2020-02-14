@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import LifeCycleB from './LifeCycleB';
 class LifeCycleA extends Component {
     constructor(props) {
@@ -52,4 +52,4 @@ class LifeCycleA extends Component {
 
 }
 
-export default LifeCycleA
+export default LifeCycleA;
