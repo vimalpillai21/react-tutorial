@@ -16,22 +16,24 @@ import React from 'react';
 // import ClassClick from './components/ClassClick/ClassClick';
 // import ParentComponent from './components/ParentComponent/ParentComponent';
 // import UserGreeting from './components/UserGreeting/UserGreeting';
-import Stylesheet from './components/StyleApp/Stylesheet';
-import Inline from './components/StyleApp/Inline';
+// import Stylesheet from './components/StyleApp/Stylesheet';
+// import Inline from './components/StyleApp/Inline';
+import LifeCycleA from './components/LifeCycleHooks/LifeCycleA';
 // import NameList from './components/UserGreeting/NameList';
 import './App.css';
 import './appStyles.css';
-import styles from './appStyles.module.css';
+// import styles from './appStyles.module.css';
 
 function App() {
   return (
     <div className="App">
       {/* <UserGreeting /> */}
       {/* <NameList /> */}
-      <h1 className='error'>Error</h1>
+      {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1>
       <Inline />
-      <Stylesheet primary={true} />
+      <Stylesheet primary={true} /> */}
+      <LifeCycleA />
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
       {/* <FileUpload /> */}
