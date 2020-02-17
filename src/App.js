@@ -21,10 +21,12 @@ import React from 'react';
 // import LifeCycleA from './components/LifeCycleHooks/LifeCycleA';
 // import Fragment from './components/FragmentDemo/Fragment';
 // import Table from './components/FragmentDemo/Table';
-import ParentComp from './components/PureComponent/ParentComp';
+// import ParentComp from './components/PureComponent/ParentComp';
 // import NameList from './components/UserGreeting/NameList';
+// import RefDemo from './components/RefDemo/RefDemo';
 import './App.css';
 import './appStyles.css';
+import FocusInput from './components/Input/FocusInput';
 // import styles from './appStyles.module.css';
 
 function App() {
@@ -39,7 +41,9 @@ function App() {
       <Stylesheet primary={true} /> */}
       {/* <LifeCycleA /> */}
       {/* <PureComp /> */}
-      <ParentComp />
+      {/* <ParentComp /> */}
+      {/* <RefDemo /> */}
+      <FocusInput />
       {/* <Fragment /> */}
       {/* <Table /> */}
       {/* <FunctionClick /> */}
