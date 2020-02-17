@@ -24,9 +24,10 @@ import React from 'react';
 // import ParentComp from './components/PureComponent/ParentComp';
 // import NameList from './components/UserGreeting/NameList';
 // import RefDemo from './components/RefDemo/RefDemo';
+// import FocusInput from './components/Input/FocusInput';
 import './App.css';
 import './appStyles.css';
-import FocusInput from './components/Input/FocusInput';
+import FRParentInput from './components/ForwardRef/FRParentInput';
 // import styles from './appStyles.module.css';
 
 function App() {
@@ -43,7 +44,8 @@ function App() {
       {/* <PureComp /> */}
       {/* <ParentComp /> */}
       {/* <RefDemo /> */}
-      <FocusInput />
+      {/* <FocusInput /> */}
+      <FRParentInput />
       {/* <Fragment /> */}
       {/* <Table /> */}
       {/* <FunctionClick /> */}
