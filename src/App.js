@@ -27,7 +27,10 @@ import React from 'react';
 // import FocusInput from './components/Input/FocusInput';
 import './App.css';
 import './appStyles.css';
-import FRParentInput from './components/ForwardRef/FRParentInput';
+import Hero from './components/Hero/Hero';
+import ErrorBoundary from './components/Hero/ErrorBoundary';
+// import FRParentInput from './components/ForwardRef/FRParentInput';
+// import PortalDemo from './components/Portals/PortalDemo';
 // import styles from './appStyles.module.css';
 
 function App() {
@@ -45,7 +48,17 @@ function App() {
       {/* <ParentComp /> */}
       {/* <RefDemo /> */}
       {/* <FocusInput /> */}
-      <FRParentInput />
+      {/* <FRParentInput /> */}
+      {/* <PortalDemo /> */}
+      <ErrorBoundary>
+        <Hero heroName="Batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Superman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Joker" />
+      </ErrorBoundary>
       {/* <Fragment /> */}
       {/* <Table /> */}
       {/* <FunctionClick /> */}
