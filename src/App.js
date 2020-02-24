@@ -34,6 +34,9 @@ import ClickCounter from './Components2/ClickCounter/ClickCounter';
 import './App.css';
 import './appStyles.css';
 import HoverCounter from './Components2/ClickCounter/HoverCounter';
+import ClickCounterTwo from './Components2/ClickCounterTwo/ClickCounterTwo';
+import HoverCounterTwo from './Components2/ClickCounterTwo/HoverCounterTwo';
+import User from './Components2/ClickCounterTwo/User';
 
 
 function App() {
@@ -85,8 +88,12 @@ function App() {
       {/* <Hello name="Bruce" heroName="Batman">This is a children prop</Hello>
       <Hello name="Clark" heroName="Superman"><button>Action</button></Hello>
       <Hello name="Diana" heroName="Wonder Woman" /> */}
-      <ClickCounter name="Hello" />
-      <HoverCounter name="World" />
+      {/* <ClickCounter name="Hello" />
+      <HoverCounter name="World" /> */}
+      <ClickCounterTwo />
+      <HoverCounterTwo />
+      {/* <User name="Hello" /> */}
+      <User render={ (isLoggedIn) => isLoggedIn ? "Logged In": " Logged out"} />
     </div>
   );
 }
