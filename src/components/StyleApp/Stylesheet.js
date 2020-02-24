@@ -9,4 +9,4 @@ function Stylesheet(props) {
     )
 }
 
-export default Stylesheet
+export default Stylesheet;

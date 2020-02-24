@@ -25,13 +25,16 @@ import React from 'react';
 // import NameList from './components/UserGreeting/NameList';
 // import RefDemo from './components/RefDemo/RefDemo';
 // import FocusInput from './components/Input/FocusInput';
-import './App.css';
-import './appStyles.css';
-import Hero from './components/Hero/Hero';
-import ErrorBoundary from './components/Hero/ErrorBoundary';
+// import Hero from './components/Hero/Hero';
+// import ErrorBoundary from './components/Hero/ErrorBoundary';
 // import FRParentInput from './components/ForwardRef/FRParentInput';
 // import PortalDemo from './components/Portals/PortalDemo';
 // import styles from './appStyles.module.css';
+import ClickCounter from './Components2/ClickCounter/ClickCounter';
+import './App.css';
+import './appStyles.css';
+import HoverCounter from './Components2/ClickCounter/HoverCounter';
+
 
 function App() {
   return (
@@ -50,7 +53,7 @@ function App() {
       {/* <FocusInput /> */}
       {/* <FRParentInput /> */}
       {/* <PortalDemo /> */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroName="Batman" />
       </ErrorBoundary>
       <ErrorBoundary>
@@ -58,7 +61,7 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroName="Joker" />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
       {/* <Fragment /> */}
       {/* <Table /> */}
       {/* <FunctionClick /> */}
@@ -82,6 +85,8 @@ function App() {
       {/* <Hello name="Bruce" heroName="Batman">This is a children prop</Hello>
       <Hello name="Clark" heroName="Superman"><button>Action</button></Hello>
       <Hello name="Diana" heroName="Wonder Woman" /> */}
+      <ClickCounter name="Hello" />
+      <HoverCounter name="World" />
     </div>
   );
 }
